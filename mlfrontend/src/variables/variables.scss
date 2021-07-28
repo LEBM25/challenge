@@ -1,0 +1,25 @@
+//// COLORS 
+$yellowColor: #FFE600;
+$blueColor: #3483FA;
+$greyPrincipalColor: #333333;
+$greyBaseColor: #666666;
+$greyAcentuarColor: #999999;
+$whiteColor: #EEEEEE;
+//// FONTS 
+$fontFamily: Helvetica Neue,
+Helvetica,
+Arial,
+sans-serif;
+//////////// MIXINS
+@mixin wraper {
+    display: flex;
+    max-width: 1020px;
+    width: 75%;
+}
+
+@mixin container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
